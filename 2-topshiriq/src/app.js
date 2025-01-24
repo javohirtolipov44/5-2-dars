@@ -34,6 +34,5 @@ io.on("connection", (socket) => {
       "offline",
       `${username} chatdan chiqdi    (${getTime()})`
     );
-    console.log(username);
   });
 });
